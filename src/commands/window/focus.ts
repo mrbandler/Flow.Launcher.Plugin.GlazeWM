@@ -15,10 +15,10 @@ export class FocusDirectionCommand extends Command<Direction> {
      * Direction to focus the window.
      *
      * @private
-     * @type {string}
+     * @type {Direction}
      * @memberof FocusDirectionCommand
      */
-    private readonly dir: string;
+    private readonly dir: Direction;
 
     /**
      * Creates an instance of FocusDirectionCommand.
@@ -69,7 +69,7 @@ export class FocusDirectionCommand extends Command<Direction> {
             method: this.method,
             params: [this.dir],
             title: `Focus ${this.dir}`,
-            subtitle: `Focus the window in the ${this.dir} direction`,
+            subtitle: `${this.build(this.dir).join(", ")}`,
             iconPath: this.icon,
         };
     }
