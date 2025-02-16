@@ -1,12 +1,12 @@
 {
-  "ID": "890a6a95-5d36-4fab-bce1-b4c3f1239098",
-  "ActionKeyword": "npm",
-  "Name": "Search NPM",
-  "Description": "Search NPM packages",
-  "Author": "Joël Kuijper",
-  "Version": "0.0.2",
-  "Language": "TypeScript",
+  "ID": "97a0e33f-5c5b-47e2-be70-7e4762258428",
+  "ActionKeyword": "gl",
+  "Name": "GlazeWM",
+  "Description": "Execute GlazeWM commands",
+  "Author": "Michael Baudler <me@mrbandler.dev>",
+  "Version": "1.0.0",
+  "Language": "JavaScript",
   "ExecuteFileName": "./dist/main.js",
-  "Website": "https://github.com/Joehoel/flow-launcher-plugin-template-node",
-  "IcoPath": "./assets/npm.png"
+  "Website": "https://github.com/mrbandler/Flow.Launcher.Plugin.GlazeWM",
+  "IcoPath": "./assets/logo.png"
 }
