@@ -1,6 +1,6 @@
 ![GlazeWM](https://github.com/mrbandler/Flow.Launcher.Plugin.GlazeWM/blob/master/assets/logo.png?raw=true)
 
-# Flow Launcher [GlazeWM](https://github.com/glzr-io/glazewm) Plugin
+# Flow Launcher GlazeWM Plugin
 
 **This plugin allows you to execute commands against your running [GlazeWM](https://github.com/glzr-io/glazewm) instance.**
 
