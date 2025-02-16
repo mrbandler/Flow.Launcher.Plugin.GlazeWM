@@ -1,38 +1,54 @@
-# Flow Launcher Plugin Template for Node
+![GlazeWM](https://github.com/mrbandler/Flow.Launcher.Plugin.GlazeWM/blob/master/assets/logo.png?raw=true)
 
-This repository contains a template for creating a [Flow Launcher](https://www.flowlauncher.com/) plugin using the [Node.js](https://nodejs.org/en/) runtime.
+# Flow Launcher [GlazeWM](https://github.com/glzr-io/glazewm) Plugin
 
-## Development
+**This plugin allows you to execute commands against your running [GlazeWM](https://github.com/glzr-io/glazewm) instance.**
 
-To be able to test this easily, you need to create a symlink between this directory and the plugin directory from Flow Launcher. This can be done by searching `Flow Launcher UserData Folder` in the launcher and pressing enter. The plugins are found in the `Plugins` folder.
+> ‼️ WARNING: This plugin is in active development and it not yet "production" ready, use at your own risk
 
-You can create a symlink by opening command prompt (CMD) in Windows and typing:
+<!-- ![Demo video of the Flow Launcher GlazeWM Plugin]() -->
 
-```CMD
-mklink /J [flow-launcher-plugin-folder]/[folder-name] [project-root]
-```
+## Features
 
-An example would look like this:
+- 👀 Focus your windows
+- ➡️ Move your windows
+- 🪟 Move your windows to a workspace
+- ⭕ Cycle through your workspaces
+- 📏 Resize your windows precisely
+- ⚙️ Toggle/Set tiling state
+- 🔄️ Reload configuration
+- 🔗 Enable/Disable binding modes
+- 🎨 Redraw everything
+- 🚪 Exit/close Glaze
 
-```CMD
-mklink /J C:\Users\Joel\AppData\Roaming\FlowLauncher\Plugins\flow-plugin C:\Users\Joel\code\flow-plugin
-```
+## Usage
 
-After this is set up. You can run:
+1. Activate by using the `gl` keyword
+2. Wait until the list is updated
+3. Select command to execute
 
-```bash
-npm install
-npm run dev
-```
+## LICENSE
 
-To compile the code and then **restart** Flow Launcher and the plugin should be loaded.
+> ⚠️ DISCLAIMER: _I am not affiliated with the [GlazeWM](https://github.com/glzr-io/glazewm) project nor do I own the rights to it's branding_
 
-> **Note**
->
-> You **don't** need to restart Flow Launcher every time you make a change.
+MIT License
 
-## Publishing
+Copyright (c) 2025 Michael Baudler
 
-When you want to release and publish a new version, just push to the `main` branch and it wil automatically create a new release and tag with the correct versions.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-To add the plugin to the official Flow Launcher plugin manifest, follow [this](https://github.com/Flow-Launcher/Flow.Launcher.PluginsManifest#readme) guide.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
