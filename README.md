@@ -29,7 +29,7 @@
 
 ## LICENSE
 
-> ⚠️ DISCLAIMER: _I am not affiliated with the [GlazeWM](https://github.com/glzr-io/glazewm) project nor do I own the rights to it's branding_
+> DISCLAIMER: _I am not affiliated with the [GlazeWM](https://github.com/glzr-io/glazewm) project nor do I own the rights to it's branding_
 
 MIT License
 
